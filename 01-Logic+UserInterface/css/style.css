@@ -1,0 +1,8 @@
+#estatisticas {
+    max-height: 200px;
+    overflow-x: scroll;
+}
+
+body {
+    font-family: sans-serif;
+}
