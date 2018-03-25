@@ -9,6 +9,7 @@ BUTTON.addEventListener('click', function(e) {
     OLRESULTADO.innerHTML = '';
 
     for (let estatistica of estatisticas) {
-        OLRESULTADO.innerHTML += `<li> ${estatistica} </li>`;
+        let estatisticaParaMostrar = '<p> PALAVRA: ' + estatistica[0] + '<br> APARIÇÕES: ' + estatistica[1] + '</p>';
+        OLRESULTADO.innerHTML += `<li> ${estatisticaParaMostrar} </li>`;
     }
 });
